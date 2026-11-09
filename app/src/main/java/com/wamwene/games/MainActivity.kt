@@ -95,7 +95,7 @@ class MainActivity : Activity() {
 
         val scroll = HorizontalScrollView(this).apply {
             isHorizontalScrollBarEnabled = false
-            fillViewport = false
+            isFillViewport = false
         }
 
         gameRow = LinearLayout(this).apply {
